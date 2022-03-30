@@ -1,0 +1,135 @@
+body {
+    
+    text-align: center;
+
+}
+
+.profile {
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 50px;
+    height: 150px;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: blueviolet;
+
+    background: linear-gradient(yellow, pink);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+
+}
+
+h1,
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+}
+
+.name {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Arial', cursive;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font: -size:40px;
+
+}
+
+.paralax {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin: auto;
+}
+
+p {
+    font-size: 40px;
+    line-height: 1.3;
+
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 11;
+    cursor: pointer;
+    font-family: 'Cinzel Decorative';
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.links {
+    float: left;
+    color: blueviolet;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+
+
+}
+
+.links:hover {
+    background: linear-gradient(#f5cbeb, #4f093f);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    background-color: crimson;
+}
+
+#contact iframe {
+    width: 100%;
+
+}
+
+.Contact_1 h3 {
+    display: inline;
+
+
+
+}
+
+.Contact_1 a {
+
+    color: #eb3467;
+    text-shadow: none;
+}
+
+#contact {
+    background-color: #f0b6eb;
+}
+
+.mynabbar {
+    z-index: 999;
+    top: 0;
+    position: sticky;
+}
